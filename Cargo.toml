@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-rtsyn_plugin = { path = "../../rtsyn-plugin" }
+rtsyn_plugin = { git = "https://github.com/rtsyn-dev/rtsyn-plugin" }
 serde_json = "1"
 
 [build-dependencies]
