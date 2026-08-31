@@ -12,25 +12,25 @@
         static const rtsyn_abi_port_descriptor_t rtsyn_rthybrid_burst_analysis_ports[RTSYN_RTHYBRID_BURST_ANALYSIS_PORT_COUNT] = {
             [RTSYN_RTHYBRID_BURST_ANALYSIS_PORT_VM_V] =
         {
-            .name = "Vm (V)",
+            .name = "vm_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_IN,
         },
     [RTSYN_RTHYBRID_BURST_ANALYSIS_PORT_MIN_V] =
         {
-            .name = "Min (V)",
+            .name = "min_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_BURST_ANALYSIS_PORT_MAX_V] =
         {
-            .name = "Max (V)",
+            .name = "max_v",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
     [RTSYN_RTHYBRID_BURST_ANALYSIS_PORT_BURST_DURATION_S] =
         {
-            .name = "Burst duration (s)",
+            .name = "burst_duration_s",
             .value_type = RTSYN_ABI_VALUE_F64,
             .direction = RTSYN_ABI_PORT_DIRECTION_OUT,
         },
