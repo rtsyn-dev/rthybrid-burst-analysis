@@ -1,0 +1,55 @@
+name = "RTHybrid Burst Analysis"
+        description = "Tracks voltage extrema and burst duration over an observation window."
+
+[[controls]]
+name = "observation_time"
+label = "Observation Time"
+kind = "number"
+target = "param"
+param_id = 0
+value_type = "f64"
+default = "5.0"
+
+
+[[indicators]]
+name = "out_min"
+label = "Out Min"
+target = "state"
+state_id = 0
+value_type = "f64"
+
+[[indicators]]
+name = "out_max"
+label = "Out Max"
+target = "state"
+state_id = 1
+value_type = "f64"
+
+[[indicators]]
+name = "min"
+label = "Min"
+target = "state"
+state_id = 2
+value_type = "f64"
+
+[[indicators]]
+name = "max"
+label = "Max"
+target = "state"
+state_id = 3
+value_type = "f64"
+
+[[indicators]]
+name = "temp_min"
+label = "Temp Min"
+target = "state"
+state_id = 4
+value_type = "f64"
+
+[[indicators]]
+name = "temp_max"
+label = "Temp Max"
+target = "state"
+state_id = 5
+value_type = "f64"
+
